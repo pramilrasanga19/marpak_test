@@ -1,0 +1,94 @@
+/* transfer-funds.css */
+.transfer-funds-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.transfer-funds-container .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.transfer-funds-container .card:hover {
+    transform: translateY(-5px);
+}
+
+.transfer-funds-container .card-header {
+    background: linear-gradient(135deg, #48c6ef 0%, #6f86d6 100%);
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-bottom: none;
+}
+
+.transfer-funds-container .card-body {
+    padding: 2rem;
+}
+
+.transfer-funds-container .form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 12px 15px;
+    transition: all 0.3s;
+}
+
+.transfer-funds-container .form-control:focus {
+    border-color: #48c6ef;
+    box-shadow: 0 0 0 0.2rem rgba(72, 198, 239, 0.25);
+}
+
+.transfer-funds-container .input-group-text {
+    background-color: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-right: none;
+    font-weight: 500;
+}
+
+.transfer-funds-container .btn-info {
+    background: linear-gradient(135deg, #48c6ef 0%, #6f86d6 100%);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.transfer-funds-container .btn-info:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(72, 198, 239, 0.4);
+}
+
+.transfer-funds-container .btn-secondary {
+    background: #6c757d;
+    border: none;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.transfer-funds-container .btn-secondary:hover {
+    background: #5a6268;
+    transform: translateY(-2px);
+}
+
+.transfer-funds-container .alert-danger {
+    background-color: #fff0f0;
+    color: #dc3545;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.transfer-funds-container .invalid-feedback {
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
